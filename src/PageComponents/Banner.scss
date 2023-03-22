@@ -1,0 +1,51 @@
+.banner {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 605px;
+    width: 100%;
+
+    * {
+        position: relative;
+        z-index: 2;
+    }
+
+    flex-shrink: 0;
+
+    .banner-background {
+        top: 0;
+        left: 0;
+
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+        position: absolute;
+
+        z-index: 1;
+
+        border-radius: 0px 0px 7px 7px;
+    }
+
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 25px;
+        margin-top: 150px;
+    }
+
+    .banner-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin: 25px;
+    }
+}

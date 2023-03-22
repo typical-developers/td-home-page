@@ -12,24 +12,18 @@ class Topbar extends React.Component {
             "about",
             "experiences",
             "team"
-        ]
-
-        // Create a ref for each element
-        this.elements.forEach((element) => {
-            this[element] = React.createRef();
-        });
+        ];
     }
 
     jumpTo = (id) => {
         document.getElementById(id).scrollIntoView({ behavior: "smooth", block: "end" });
+        this.forceUpdate();
     }
 
     getActive = () => {
         let active = "about";
-
         this.elements.forEach((element) => {
-            console.log(this[element].current);
-            if (this[element].current && this[element].current.getBoundingClientRect().top < 0) {
+            if (this.props.refList[element]?.current?.primaryDiv?.current?.getBoundingClientRect().top <= 150) {
                 active = element;
             }
         });
@@ -37,11 +31,14 @@ class Topbar extends React.Component {
         return active;
     }
 
-    // Refresh the active link when the user scrolls
     componentDidMount() {
-        window.addEventListener("scroll", () => {
+        this.checkInterval = setInterval(() => {
             this.forceUpdate();
-        });
+        }, 100);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.checkInterval);
     }
     
     render() {
@@ -54,9 +51,9 @@ class Topbar extends React.Component {
                     <h1>Typical Developers</h1>
                 </div>
                 <div className="topbar-links">
-                    <a href="#" ref={this["about"]} className={active == "about" ? "active" : "inactive"} onClick={() => this.jumpTo("about")}>About</a>
-                    <a href="#" className={active == "experiences" ? "active" : "inactive"} onClick={() => this.jumpTo("experiences")}>Experiences</a>
-                    <a href="#" className={active == "team" ? "active" : "inactive"} onClick={() => this.jumpTo("team")}>The Team</a>
+                    <a className={active === "about" ? "active" : "inactive"} onClick={() => this.jumpTo("about")}>About</a>
+                    <a className={active === "experiences" ? "active" : "inactive"} onClick={() => this.jumpTo("experiences")}>Experiences</a>
+                    <a className={active === "team" ? "active" : "inactive"} onClick={() => this.jumpTo("team")}>The Team</a>
                 </div>
             </div>
         )

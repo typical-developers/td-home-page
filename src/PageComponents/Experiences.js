@@ -8,11 +8,13 @@ import RobloxIcon from "../Images/Roblox_Icon.svg"
 class Experiences extends React.Component {
     constructor() {
         super();
+
+        this.primaryDiv = React.createRef();
     }
 
     render() {
         return (
-            <div className="experiences" id="experiences">
+            <div ref={this.primaryDiv} className="experiences" id="experiences">
                 <div className="experiences-title">
                     <h2>Our Typical Experiences</h2>
                     <p>Okay, it might be one right now, but we plan to make more in the future (probably)!</p>
@@ -28,7 +30,7 @@ class Experiences extends React.Component {
                                     <h3>{experience.title}</h3>
                                     <p>{experience.description}</p>
                                     <div className="play-info">
-                                        <Button type="special" width="125px" link={experience.link}><img src={RobloxIcon} alt="Roblox Icon"></img>Play on Roblox</Button>
+                                        <Button type="special" width="140px" link={experience.link}><img src={RobloxIcon} alt="Roblox Icon"></img>Play on Roblox</Button>
                                     </div>
                                 </div>
                             </div>

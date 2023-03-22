@@ -1,4 +1,6 @@
 .topbar {
+    user-select: none;
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -26,11 +28,15 @@
 
         margin-right: 50px;
 
-
         font-family: "Mona-Sans Medium Wide", "Mona Sans", sans-serif;
 
-        &.active {
+        .active {
+            margin-top: 2px;
             border-bottom: 2px solid var(--text-color);
+        }
+
+        a {
+            cursor: pointer;
         }
     }
 

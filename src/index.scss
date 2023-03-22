@@ -70,12 +70,15 @@ p, h1, h2, h3, h4, div {
     background-color: var(--background-color);
 }
 
-html, body, #root, .App {
-    height: 100%;
+html {
+    overflow-y: auto;
     overflow-x: hidden;
+    height: 100%;
+}
+
+html, body, #root, .App {
     font-family: "Mona-Sans", sans-serif;
 
-    
     scrollbar-color: var(--highlight-color) #0000003b;
     scrollbar-width: thin;
 
@@ -136,9 +139,7 @@ p, b {
 .scroll-content {
     width: 100%;
     height: 100%;
-
-    overflow-x: hidden;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;

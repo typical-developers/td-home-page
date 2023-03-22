@@ -7,12 +7,17 @@ import Topbar from "./PageComponents/Topbar";
 
 
 function App() {
+    // Create refs for each section
+    const aboutRef = React.createRef();
+    const experiencesRef = React.createRef();
+    const teamRef = React.createRef();
+    
     return (
         <div className="App">
-            <Topbar></Topbar>
+            <Topbar refList={{"about": aboutRef, "experiences": experiencesRef, "team": teamRef}}></Topbar>
             <div className="scroll-content">
-                <Banner></Banner>
-                <Experiences experiences={
+                <Banner ref={aboutRef}></Banner>
+                <Experiences ref={experiencesRef} experiences={
                     [
                         {
                             image: "https://tr.rbxcdn.com/880d89f2adc0f1c1b89d67828fa0f4c5/768/432/Image/Png",
@@ -39,7 +44,7 @@ function App() {
                         }
                     ]
                 }></Experiences>
-                <Team members={
+                <Team ref={teamRef} members={
                     [
                         {
                             name: "Hoofer",
@@ -56,31 +61,31 @@ function App() {
                         {
                             name: "Kinder",
                             role: "Scripter",
-                            image: "https://avatars.githubusercontent.com/u/60201971?v=4",
+                            image: "https://cdn.discordapp.com/avatars/342048751075983360/907a8ae900462f90f9dafac11411fafd.webp?size=2048",
                             link: "https://www.roblox.com/users/114446765/profile"
                         },
                         {
                             name: "Shurikeno",
                             role: "Builder",
-                            image: "https://avatars.githubusercontent.com/u/60201971?v=4",
+                            image: "https://cdn.discordapp.com/avatars/570645881582518272/a_cb512dad6d090885252ee47594796d34.gif?size=2048",
                             link: "https://www.roblox.com/users/1310236768/profile"
                         },
                         {
                             name: "Akkoza",
                             role: "Scripter",
-                            image: "https://avatars.githubusercontent.com/u/60201971?v=4",
+                            image: "https://cdn.discordapp.com/avatars/703448942519517246/b846c13e19fbc54df638bf3387d3a622.webp?size=2048",
                             link: "https://www.roblox.com/users/406236/profile"
                         },
                         {
                             name: "Fuzzy",
                             role: "Manager",
-                            image: "https://avatars.githubusercontent.com/u/60201971?v=4",
+                            image: "https://cdn.discordapp.com/avatars/337440972239798273/61489bf79f5b94a059af81c70933a0f2.webp?size=2048",
                             link: "https://www.roblox.com/users/107879863/profile"
                         },
                         {
                             name: "Lucas",
                             role: "Manager",
-                            image: "https://avatars.githubusercontent.com/u/60201971?v=4",
+                            image: "https://cdn.discordapp.com/avatars/256815446802694144/58662ec3c621f00d7619521a743c96bb.webp?size=2048",
                             link: "https://www.roblox.com/users/145869236/profile"
                         },
                     ]

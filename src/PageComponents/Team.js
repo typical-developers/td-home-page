@@ -5,6 +5,8 @@ import "./Team.scss";
 class Team extends React.Component {
     constructor() {
         super();
+
+        this.primaryDiv = React.createRef();
     }
 
     openLink = (link) => {
@@ -13,7 +15,7 @@ class Team extends React.Component {
 
     render() {
         return (
-            <div className="team" id="team">
+            <div ref={this.primaryDiv} className="team" id="team">
                 <div className="team-title">
                     <h2>Our Typical Team</h2>
                     <p>A round of applause to everyone listed here as they have somehow stayed sane through everything.</p>

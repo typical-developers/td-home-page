@@ -11,11 +11,13 @@ import Button from "../Widgets/Button";
 class Banner extends React.Component {
     constructor() {
         super();
+
+        this.primaryDiv = React.createRef();
     }
 
     render() {
         return (
-            <div className="banner" id="about">
+            <div ref={this.primaryDiv} className="banner" id="about">
                 <img className="banner-background" src={Background} alt="Banner Background"></img>
                 <div className="banner-content">
                     <h1>We are SUPER typical.</h1>

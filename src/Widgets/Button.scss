@@ -42,4 +42,13 @@
 
         margin-right: 7px;
     }
+
+    user-select: none;
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(1.1);
+    }
+
+    transition: .2s linear filter;
 }

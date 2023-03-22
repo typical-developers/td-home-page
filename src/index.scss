@@ -25,6 +25,15 @@
     font-stretch: 75% 125%;
 }
 
+@font-face {
+    font-family: 'Mona-Sans Medium Wide';
+    src:
+      url('/Fonts/Mona Sans/WOFF 2/Mona-Sans-MediumWide.woff2') format('woff2 supports variations'),
+      url('/Fonts/Mona Sans/WOFF 2/Mona-Sans-MediumWide.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+
 :root {
     --background-color: #121117;
     --background-color-light: #191820;

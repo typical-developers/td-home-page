@@ -21,8 +21,8 @@ class Banner extends React.Component {
                     <h1>We are SUPER typical.</h1>
                     <p>Like, super typically typical. Like, <b>we make stuff</b> typical. So typical of us, right?</p>
                     <div className="banner-buttons">
-                        <Button type="discord"><img src={DiscordIcon} alt="Discord Icon"></img>Join the Discord</Button>
-                        <Button type="roblox"><img src={RobloxIcon} alt="Roblox Icon"></img>Join the Roblox Group</Button>
+                        <Button type="discord" link="https://discord.gg/Typical"><img src={DiscordIcon} alt="Discord Icon"></img>Join the Discord</Button>
+                        <Button type="roblox" link="https://www.roblox.com/groups/2700233/Typical-Developers#!/about"><img src={RobloxIcon} alt="Roblox Icon"></img>Join the Roblox Group</Button>
                     </div>
                 </div>
             </div>

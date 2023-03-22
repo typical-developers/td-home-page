@@ -7,9 +7,14 @@ class Button extends React.Component {
         super();
     }
 
+    click = () => {
+        console.log(this.props.link)
+        window.open(this.props.link, "_blank");
+    }
+
     render() {
         return (
-            <div className={`button button-${this.props.type || "special"}`} style={{maxWidth: this.props.width}}>
+            <div onClick={this.click} className={`button button-${this.props.type || "special"}`} style={{maxWidth: this.props.width}}>
                 {this.props.children}
             </div>
         )

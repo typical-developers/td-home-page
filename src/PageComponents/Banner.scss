@@ -16,7 +16,7 @@
     flex-shrink: 0;
 
     .banner-background {
-        top: 0;
+        top: -1px;
         left: 0;
 
         height: 100%;
@@ -28,6 +28,8 @@
         z-index: 1;
 
         border-radius: 0px 0px 7px 7px;
+
+        user-select: none;
     }
 
     .banner-content {

@@ -1,0 +1,62 @@
+.team {
+    width: 100%;
+    margin: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .team-title {
+        width: 500px;
+        margin-bottom: 50px;
+
+        h2 {
+
+        }
+
+        p {
+            
+        }
+    }
+
+    .team-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .team-member-card {
+            width: 250px;
+            height: 321px;
+
+            background-color: var(--background-color-light);
+            border-radius: 7px;
+
+            margin: 12px;
+            
+            .team-pfp {
+                width: 250px;
+                height: 250px;
+                
+                object-fit: cover;
+                border-radius: 7px;
+            }
+
+            h3 {
+                margin-top: 5px;
+
+                font-size: 20px;
+                font-family: "Mona-Sans Black Wide";
+            }
+
+            p {
+                margin-top: 10px;
+
+                font-family: "Mona-Sans Medium Wide";
+                font-size: 12px;
+            }
+        }
+    }
+}

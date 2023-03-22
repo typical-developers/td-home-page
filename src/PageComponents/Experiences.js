@@ -28,7 +28,7 @@ class Experiences extends React.Component {
                                     <h3>{experience.title}</h3>
                                     <p>{experience.description}</p>
                                     <div className="play-info">
-                                        <Button type="special" width="125px"><img src={RobloxIcon} alt="Roblox Icon"></img>Play on Roblox</Button>
+                                        <Button type="special" width="125px" link={experience.link}><img src={RobloxIcon} alt="Roblox Icon"></img>Play on Roblox</Button>
                                     </div>
                                 </div>
                             </div>

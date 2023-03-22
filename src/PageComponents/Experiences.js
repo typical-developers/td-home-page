@@ -17,7 +17,7 @@ class Experiences extends React.Component {
             <div ref={this.primaryDiv} className="experiences" id="experiences">
                 <div className="experiences-title">
                     <h2>Our Typical Experiences</h2>
-                    <p>Okay, it might be one right now, but we plan to make more in the future (probably)!</p>
+                    <p>Okay, it may be barely any right now, but we plan to make more in the future (probably)!</p>
                 </div>
                 <div className="experiences-list">
                     {this.props.experiences.map((experience, index) => {

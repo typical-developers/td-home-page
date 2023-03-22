@@ -32,15 +32,15 @@ function App() {
                             link: "https://www.roblox.com/games/9938675423/Oaklands"
                         },
                         {
-                            image: "https://tr.rbxcdn.com/6bb7410d669467f6a0066962ae6098ed/768/432/Image/Png",
-                            title: "Gameboy Emulator",
-                            description: `⟼» We are in no way responsible for what ROMs you use. We do not supply them, you may get them from your sources. This game is not associated with Nintendo.
+                            image: "https://tr.rbxcdn.com/302f8a9c1602cbb283cf74ed6cf67890/768/432/Image/Png",
+                            title: "Sea Cleaning Simulator 🌊",
+                            description: `🌊 Sea Cleaning Simulator is a game where you work with others to clean the seas! You can collect trash, level up to unlock more boats, and save our seas!
 
-                            ⟼» This game supports and emulates the ROMs of the normal Gameboy and the Gameboy Color.
-
-                            ⟼» Made using a port of LuaGB! Massive credits to them for making this possible.
+                            ⛵ The purpose of this game is to spread awareness about #TeamSeas. For every dollar donated, a pound of trash is cleaned from lakes, rivers, and oceans. You can support the cause by donating to them on their website, where 100% of the profit they earn goes DIRECTLY to charity.
+                            
+                            Thank you for playing! #TeamSeas
                             `,
-                            link: "https://www.roblox.com/games/5493847492/Gameboy-Emulator-v2-Open-Source"
+                            link: "https://www.roblox.com/games/7776498299/Sea-Cleaning-Simulator-TeamSeas"
                         }
                     ]
                 }></Experiences>
@@ -48,13 +48,13 @@ function App() {
                     [
                         {
                             name: "Hoofer",
-                            role: "Owner & Scripter",
+                            role: "Lead & Scripter",
                             image: "https://avatars.githubusercontent.com/u/60201971?v=4",
                             link: "https://www.roblox.com/users/1182777055/profile"
                         },
                         {
                             name: "LuckFire",
-                            role: "Manager & UI / UX Designer",
+                            role: "UI / UX Designer & Manager",
                             image: "https://avatars.githubusercontent.com/u/39076891?v=4",
                             link: "https://www.roblox.com/users/36347722/profile"
                         },

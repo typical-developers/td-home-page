@@ -24,7 +24,7 @@ class Team extends React.Component {
                     {this.props.members.map((member, index) => {
                         return (
                             <div onClick={() => this.openLink(member.link)} className="team-member-card" key={"member-" + index}>
-                                <img alt="Profile Picture" className="team-pfp" src={member.image}></img>
+                                <img alt="Profile" className="team-pfp" src={member.image}></img>
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </div>

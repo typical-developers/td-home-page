@@ -20,9 +20,9 @@ function App() {
                 <Experiences ref={experiencesRef} experiences={
                     [
                         {
-                            image: "https://tr.rbxcdn.com/880d89f2adc0f1c1b89d67828fa0f4c5/768/432/Image/Png",
-                            title: "Oaklands",
-                            description: `🍀 A game about chopping trees down and mining ores and building stuff with it.
+                            image: "https://tr.rbxcdn.com/1899283c5feea66b2f6b42326f97cd3f/768/432/Image/Png",
+                            title: "Oaklands 🌳",
+                            description: `A game about chopping trees down and mining ores and building stuff with it.
                                 📜️ The island expansion update is out now! Try out the new island and explore the new areas.
                                 
                                 ⚠️ This experience is currently in an alpha state! Please expect to run into issues. If you do happen to run into any issues, please report them on our group wall or in the community server!

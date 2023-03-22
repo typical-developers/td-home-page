@@ -9,7 +9,7 @@ class Button extends React.Component {
 
     render() {
         return (
-            <div className={`button button-${this.props.type || "special"}`}>
+            <div className={`button button-${this.props.type || "special"}`} style={{maxWidth: this.props.width}}>
                 {this.props.children}
             </div>
         )

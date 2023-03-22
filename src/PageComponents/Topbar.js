@@ -47,13 +47,13 @@ class Topbar extends React.Component {
         return (
             <div className="topbar">
                 <div className="topbar-logo">
-                    <img src={TDIcon}></img>
+                    <img alt="TD" src={TDIcon}></img>
                     <h1>Typical Developers</h1>
                 </div>
                 <div className="topbar-links">
-                    <a className={active === "about" ? "active" : "inactive"} onClick={() => this.jumpTo("about")}>About</a>
-                    <a className={active === "experiences" ? "active" : "inactive"} onClick={() => this.jumpTo("experiences")}>Experiences</a>
-                    <a className={active === "team" ? "active" : "inactive"} onClick={() => this.jumpTo("team")}>The Team</a>
+                    <a href="javascript:void(0)" className={active === "about" ? "active" : "inactive"} onClick={() => this.jumpTo("about")}>About</a>
+                    <a href="javascript:void(0)" className={active === "experiences" ? "active" : "inactive"} onClick={() => this.jumpTo("experiences")}>Experiences</a>
+                    <a href="javascript:void(0)" className={active === "team" ? "active" : "inactive"} onClick={() => this.jumpTo("team")}>The Team</a>
                 </div>
             </div>
         )

@@ -3,10 +3,6 @@ import React from "react";
 import "./Button.scss";
 
 class Button extends React.Component {
-    constructor() {
-        super();
-    }
-
     click = () => {
         console.log(this.props.link)
         window.open(this.props.link, "_blank");

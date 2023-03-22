@@ -12,7 +12,7 @@ class Experiences extends React.Component {
 
     render() {
         return (
-            <div className="experiences">
+            <div className="experiences" id="experiences">
                 <div className="experiences-title">
                     <h2>Our Typical Experiences</h2>
                     <p>Okay, it might be one right now, but we plan to make more in the future (probably)!</p>

@@ -36,9 +36,9 @@
         justify-content: space-between;
         align-items: center;
 
-        .experience {
-            margin: 15px;
+        gap: 15px;
 
+        .experience {
             background-color: var(--background-color-lighter);
 
             position: relative;
@@ -76,6 +76,7 @@
             white-space: pre-line; 
 
             height: 100%;
+            width: 100%;
 
             margin-left: 15px;
 

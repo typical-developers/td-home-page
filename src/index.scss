@@ -43,7 +43,7 @@
     --roblox-button-color: linear-gradient(195.36deg, #FEFFFF 16.35%, #A0ADBD 83.24%);
     --special-button-color: linear-gradient(97.53deg, #00DBDB -0.1%, #00E591 99.9%);
 
-    --blur-color: #1c1523b2;
+    --blur-color: #3f3f3f5e;
 
     --text-color: #FFFFFF;
     --text-alt-color: #000000;
@@ -60,6 +60,8 @@ p, h1, h2, h3, h4, div {
 }
   
 .App {
+    position: relative;
+    
     width: 100%;
     height: 100%;
     left: 0;
@@ -72,6 +74,24 @@ html, body, #root, .App {
     height: 100%;
     overflow-x: hidden;
     font-family: "Mona-Sans", sans-serif;
+
+    
+    scrollbar-color: var(--highlight-color) #0000003b;
+    scrollbar-width: thin;
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #0000003b;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--highlight-color);
+        border-radius: 20px;
+        border: 3px solid #0000003b;
+    }
 }
 
 body {

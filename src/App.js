@@ -3,10 +3,13 @@ import React from "react";
 import Banner from "./PageComponents/Banner";
 import Experiences from "./PageComponents/Experiences";
 import Team from "./PageComponents/Team";
+import Topbar from "./PageComponents/Topbar";
+
 
 function App() {
     return (
         <div className="App">
+            <Topbar></Topbar>
             <div className="scroll-content">
                 <Banner></Banner>
                 <Experiences experiences={
@@ -42,43 +45,43 @@ function App() {
                             name: "Hoofer",
                             role: "Owner & Scripter",
                             image: "https://avatars.githubusercontent.com/u/60201971?v=4",
-                            link: "https://www.roblox.com/users/1/profile"
+                            link: "https://www.roblox.com/users/1182777055/profile"
                         },
                         {
                             name: "LuckFire",
                             role: "Manager & UI / UX Designer",
-                            image: "https://avatars.githubusercontent.com/u/60201971?v=4",
-                            link: "https://www.roblox.com/users/1/profile"
+                            image: "https://avatars.githubusercontent.com/u/39076891?v=4",
+                            link: "https://www.roblox.com/users/36347722/profile"
                         },
                         {
                             name: "Kinder",
                             role: "Scripter",
                             image: "https://avatars.githubusercontent.com/u/60201971?v=4",
-                            link: "https://www.roblox.com/users/1/profile"
+                            link: "https://www.roblox.com/users/114446765/profile"
                         },
                         {
                             name: "Shurikeno",
                             role: "Builder",
                             image: "https://avatars.githubusercontent.com/u/60201971?v=4",
-                            link: "https://www.roblox.com/users/1/profile"
+                            link: "https://www.roblox.com/users/1310236768/profile"
                         },
                         {
                             name: "Akkoza",
                             role: "Scripter",
                             image: "https://avatars.githubusercontent.com/u/60201971?v=4",
-                            link: "https://www.roblox.com/users/1/profile"
+                            link: "https://www.roblox.com/users/406236/profile"
                         },
                         {
                             name: "Fuzzy",
                             role: "Manager",
                             image: "https://avatars.githubusercontent.com/u/60201971?v=4",
-                            link: "https://www.roblox.com/users/1/profile"
+                            link: "https://www.roblox.com/users/107879863/profile"
                         },
                         {
                             name: "Lucas",
                             role: "Manager",
                             image: "https://avatars.githubusercontent.com/u/60201971?v=4",
-                            link: "https://www.roblox.com/users/1/profile"
+                            link: "https://www.roblox.com/users/145869236/profile"
                         },
                     ]
                 }></Team>

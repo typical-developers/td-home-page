@@ -23,9 +23,11 @@
     .team-list {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        
+        width: 60%;
 
         .team-member-card {
             width: 250px;
@@ -35,6 +37,14 @@
             border-radius: 7px;
 
             margin: 12px;
+
+            cursor: pointer;
+
+            &:hover {
+                filter: brightness(1.1);
+            }
+
+            transition: .1s linear filter;
             
             .team-pfp {
                 width: 250px;

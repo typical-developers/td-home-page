@@ -15,7 +15,7 @@ class Banner extends React.Component {
 
     render() {
         return (
-            <div className="banner">
+            <div className="banner" id="about">
                 <img className="banner-background" src={Background} alt="Banner Background"></img>
                 <div className="banner-content">
                     <h1>We are SUPER typical.</h1>

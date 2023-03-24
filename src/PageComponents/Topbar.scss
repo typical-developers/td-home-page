@@ -48,6 +48,10 @@
     .topbar-logo {
         margin-left: 35px;
 
+        @media (max-width: 700px) {
+            margin-left: 0px;
+        }
+
         display: flex;
         flex-direction: row;
         justify-content: center;

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9841106.css",
+    "main.css": "/static/css/main.ba39eb0a.css",
     "main.js": "/static/js/main.31730b7e.js",
     "static/media/Mona-Sans.woff2": "/static/media/Mona-Sans.955a87eb3766a32ac970.woff2",
     "static/media/TD_Banner.svg": "/static/media/TD_Banner.8d998f5c275505911d0683f21c545d15.svg",
@@ -11,11 +11,11 @@
     "static/media/TD_Icon.svg": "/static/media/TD_Icon.a1ca661fabd480b056241a888efe3ac6.svg",
     "index.html": "/index.html",
     "static/media/Roblox_Icon.svg": "/static/media/Roblox_Icon.6bfd748fd0092d3d6d0c8c724410d462.svg",
-    "main.a9841106.css.map": "/static/css/main.a9841106.css.map",
+    "main.ba39eb0a.css.map": "/static/css/main.ba39eb0a.css.map",
     "main.31730b7e.js.map": "/static/js/main.31730b7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9841106.css",
+    "static/css/main.ba39eb0a.css",
     "static/js/main.31730b7e.js"
   ]
 }

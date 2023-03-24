@@ -10,6 +10,12 @@
     border-bottom: 2px solid var(--background-color-lighter);
 
     flex-shrink: 0;
+    
+    @media (max-width: 1200px) {
+        flex-direction: column;
+
+        gap: 50px;
+    }
 
     .experiences-title {
         width: 356px;
@@ -22,6 +28,13 @@
         align-items: start;
 
         text-align: left;
+
+        @media (max-width: 1200px) {
+            text-align: center;
+            margin: 0px;
+        }
+
+        white-space: break-spaces;
     }
 
     .experiences-list {
@@ -37,6 +50,11 @@
 
         gap: 15px;
 
+        @media (max-width: 1200px) {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
         .experience {
             background-color: var(--background-color-lighter);
 
@@ -48,6 +66,13 @@
             display: flex;
             flex-direction: row;
 
+            @media (max-width: 800px) {
+                flex-direction: column;
+                align-items: center;
+
+                height: 388px;
+            }
+
             border-radius: 7px;
         }
         
@@ -56,6 +81,11 @@
             max-width: 510px;
             
             height: 100%;
+
+            @media (max-width: 800px) {
+                height: 200px;
+                max-width: initial;
+            }
 
             img {
                 border-radius: 7px;
@@ -79,6 +109,11 @@
 
             margin-left: 15px;
 
+            @media (max-width: 800px) {
+                width: 98%;
+                margin-left: 0px;
+            }
+
             h3 {
                 margin-top: 15px;
                 margin-bottom: 10px;
@@ -87,6 +122,9 @@
                 font-size: 20px;
 
                 width: 100%;
+
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
 
             p {
@@ -94,12 +132,20 @@
                 line-height: 200%;
                 word-wrap: break-word;
             
-                height: calc(100% - 56px * 2);
+                max-height: 60%;
+
+                @media (max-width: 800px) {
+                    max-height: 85px;
+                }
 
                 -webkit-mask-image: linear-gradient(180deg, #000 10%, transparent);
             }
 
             .play-info {
+                position: absolute;
+                bottom: 15px;
+                left: 0px;
+
                 width: 100%;
 
                 display: flex;

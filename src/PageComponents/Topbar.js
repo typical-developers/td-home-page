@@ -23,7 +23,7 @@ class Topbar extends React.Component {
     getActive = () => {
         let active = "about";
         this.elements.forEach((element) => {
-            if (this.props.refList[element]?.current?.primaryDiv?.current?.getBoundingClientRect().top <= 150) {
+            if (this.props.refList[element]?.current?.primaryDiv?.current?.getBoundingClientRect().top <= 250) {
                 active = element;
             }
         });

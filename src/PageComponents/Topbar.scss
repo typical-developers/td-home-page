@@ -39,6 +39,10 @@
         a {
             cursor: pointer;
         }
+
+        @media (max-width: 700px) {
+            display: none;
+        }
     }
 
     .topbar-logo {
@@ -57,5 +61,15 @@
         img {
             height: 40px;
         }
+    }
+
+    
+
+    @media (min-width: 700px) {
+        justify-content: space-between;
+    }
+
+    @media (max-width: 700px) {
+        justify-content: center;
     }
 }

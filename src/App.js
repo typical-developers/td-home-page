@@ -20,14 +20,11 @@ function App() {
                 <Experiences ref={experiencesRef} experiences={
                     [
                         {
-                            image: "https://tr.rbxcdn.com/1899283c5feea66b2f6b42326f97cd3f/768/432/Image/Png",
+                            image: "https://tr.rbxcdn.com/9e97a29ee537dace4ae51533aa6b9b81/768/432/Image/Png",
                             title: "Oaklands 🌳",
-                            description: `A game about chopping trees down and mining ores and building stuff with it.
-                                📜️ The island expansion update is out now! Try out the new island and explore the new areas.
+                            description: `🌳 Create a tycoon empire in this sandbox game. Chop trees, process lumber, mine rocks and ores, create amazing buildings, and more! There are endless opportunities, from creating complex automated machines, to creating an epic castle of mystery. Have fun earning, exploring, and creating!
                                 
-                                ⚠️ This experience is currently in an alpha state! Please expect to run into issues. If you do happen to run into any issues, please report them on our group wall or in the community server!
-                                
-                                ⭐ "Muneeb Approved" - 11/29/2022
+                                🛠️ Oaklands is still in early development, we appreciate your patience as issues appear and are resolved!
                             `,
                             link: "https://www.roblox.com/games/9938675423/Oaklands"
                         },

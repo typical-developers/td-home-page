@@ -61,31 +61,25 @@ function App() {
                         {
                             name: "Kinder",
                             role: "Scripter",
-                            image: "https://cdn.discordapp.com/avatars/342048751075983360/907a8ae900462f90f9dafac11411fafd.webp?size=2048",
+                            image: "https://avatars.githubusercontent.com/u/63945237?v=4",
                             link: "https://www.roblox.com/users/114446765/profile"
                         },
                         {
                             name: "Shurikeno",
                             role: "Builder",
-                            image: "https://cdn.discordapp.com/avatars/570645881582518272/a_cb512dad6d090885252ee47594796d34.gif?size=2048",
+                            image: "https://cdn.discordapp.com/avatars/570645881582518272/a_37df27b8b4b20a7e313b3dacbd106e16.png?size=2048",
                             link: "https://www.roblox.com/users/1310236768/profile"
-                        },
-                        {
-                            name: "Akkoza",
-                            role: "Scripter",
-                            image: "https://cdn.discordapp.com/avatars/703448942519517246/b846c13e19fbc54df638bf3387d3a622.webp?size=2048",
-                            link: "https://www.roblox.com/users/406236/profile"
                         },
                         {
                             name: "Fuzzy",
                             role: "Manager",
-                            image: "https://cdn.discordapp.com/avatars/337440972239798273/61489bf79f5b94a059af81c70933a0f2.webp?size=2048",
+                            image: "https://avatars.githubusercontent.com/u/25520160?v=4",
                             link: "https://www.roblox.com/users/107879863/profile"
                         },
                         {
                             name: "Lucas",
                             role: "Manager",
-                            image: "https://cdn.discordapp.com/avatars/256815446802694144/58662ec3c621f00d7619521a743c96bb.webp?size=2048",
+                            image: "https://cdn.discordapp.com/avatars/256815446802694144/4288a0f607886879dd38d828ebaba8bd.png?size=2048",
                             link: "https://www.roblox.com/users/145869236/profile"
                         },
                     ]
